@@ -3,6 +3,7 @@
   --bg: #f7f8fc;
   --card: #ffffff;
   --primary: #7c8fd6;
+  --primary_hovered: #51619c;
   --secondary: #9bb7d4;
   --third: #5c5c5c;
   --text: #2f2f33;
@@ -95,6 +96,10 @@ section p {
 section a {
   line-height: 1.7;
   color: var(--primary);
+}
+
+section a:hover {
+  color: var(--primary_hovered);
 }
 
 section i {
