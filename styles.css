@@ -82,9 +82,17 @@ section h3 {
   color: var(--third);
 }
 
+.disclaimer {
+  font-weight: 200;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 2.4rem;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  color: var(--third);
+}
 
-
-#section_title_box {
+.section_title_box {
   border-bottom: 1px solid var(--border);
 }
 
