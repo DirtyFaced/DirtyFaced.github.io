@@ -217,3 +217,38 @@ footer {
   max-width: 60vw;
   aspect-ratio: 16 / 9;
 }
+
+.contact {
+  padding: 4rem 1rem;
+  text-align: center;
+}
+
+.contact p {
+  font-size: 1.1rem;
+}
+
+.contact a {
+  margin-left: 0.25rem;
+  text-decoration: none;
+  border-bottom: 1px solid currentColor;
+}
+
+.contact a:hover {
+  opacity: 0.7;
+}
+
+.mail {
+  margin-top: -8px;
+  font-size: 0.8rem;
+  font-style: italic;
+  color: var(--extra_muted);
+}
+
+.site-footer {
+  margin-top: 80px;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #aaa;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
