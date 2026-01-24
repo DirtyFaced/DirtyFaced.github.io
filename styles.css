@@ -39,8 +39,16 @@ nav {
 
 nav h1 {
   font-size: 1.2rem;
-  margin-bottom: 32px;
+  margin-bottom: 10px;
   color: var(--primary);
+}
+
+nav h2 {
+  font-size: 1.0rem;
+  margin-bottom: 32px;
+  padding-bottom: 8px;
+  color: var(--extra_muted);
+  border-bottom: 1px solid var(--border);
 }
 
 nav a {
